@@ -3,6 +3,6 @@
 
 <h3>Java</h3>
 <pre>
-<strong>java/positive correlation perceptron:</strong> Predicts values based on existing input and output data with positive correlations.
-<strong>java/outlier identifier:</strong> Identifies outliers in input and output data, resulting in more accurate weight prediction.
+<p><strong>java/positive correlation perceptron:</strong>   Predicts values based on existing input and output data with positive correlations.</p>
+<p><strong>java/outlier identifier:</strong>                Identifies outliers in input and output data, resulting in more accurate weight prediction.</p>
 </pre>
