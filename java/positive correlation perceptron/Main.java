@@ -12,7 +12,7 @@ public class Main {
         double[] outputs = new double[]{1000, 1654, 1100, 2400};
 
         //Train:
-        PositiveCorrelationPerceptron neuron = new PositiveCorrelationPerceptron(inputs, outputs);
+        Neuron neuron = new Neuron(inputs, outputs);
         neuron.train(1);
 
         //Export model and predict:
