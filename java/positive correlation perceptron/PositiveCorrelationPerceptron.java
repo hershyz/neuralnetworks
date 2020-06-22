@@ -1,13 +1,13 @@
 import java.util.Random;
 
-public class PositiveCorrelationPerceptron {
+public class Neuron {
 
     private static double[][] inputs;
     private static double[] outputs;
     private static double[] weights;
 
     //Constructor:
-    public PositiveCorrelationPerceptron(double[][] passedInputs, double[] passedOutputs) {
+    public Neuron(double[][] passedInputs, double[] passedOutputs) {
 
         //Fills inputs:
         inputs = new double[passedInputs.length][passedInputs[0].length];
