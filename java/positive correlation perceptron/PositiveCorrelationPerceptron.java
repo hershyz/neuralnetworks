@@ -7,7 +7,7 @@ public class Neuron {
     private static double[] weights;
 
     //Constructor:
-    public Neuron(double[][] passedInputs, double[] passedOutputs) {
+    public PositiveCorrelationPerceptron(double[][] passedInputs, double[] passedOutputs) {
 
         //Fills inputs:
         inputs = new double[passedInputs.length][passedInputs[0].length];
