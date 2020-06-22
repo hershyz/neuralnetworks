@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class Neuron {
+public class PositiveCorrelationPerceptron {
 
     private static double[][] inputs;
     private static double[] outputs;
