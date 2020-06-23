@@ -1,5 +1,3 @@
-import java.util.Random;
-
 public class Neuron {
 
     private static double[][] inputs;
@@ -25,7 +23,6 @@ public class Neuron {
 
         //Fills weights:
         weights = new double[inputs[0].length];
-        Random rnd = new Random();
         for (int i = 0; i < weights.length; i++) {
             weights[i] = 1 / Double.valueOf(inputs[0].length);
         }
