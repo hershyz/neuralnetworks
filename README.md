@@ -8,7 +8,14 @@ A neural network that makes predictions based on positively correlated input dat
 This network automatically terminates training when predictions are satisfactory according to a given error margin.
 </pre>
 <pre>
-<strong>java/outlier identifier</strong>
+<strong>java/intercept regression perceptron:</strong>
+A neural network that makes predictions based on positively or negatively correlated input data.
+This network uses a regression (sort of) algorithm in infinite dimensions.
+A baseline intercept is calculated, which also sets starting weights for each input column.
+The weights are adjusted over time until the set number of epochs have been completed.
+</pre>
+<pre>
+<strong>java/outlier identifier:</strong>
 Small library that idenfifies outliers in a set of data.
 Identifying and eliminating outliers from training datasets will increase the accuracy of a model's predictions.
 </pre>
