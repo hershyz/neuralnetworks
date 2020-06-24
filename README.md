@@ -4,7 +4,7 @@
 <h3>Java:</h3>
 <pre>
 <strong>java/positive correlation perceptron:</strong>
-A neural network that makes predictions based on positively correlated input data.
+A neural network that makes predictions based on positively correlated non zero input data.
 This network automatically terminates training when predictions are satisfactory according to a given error margin.
 </pre>
 <pre>
