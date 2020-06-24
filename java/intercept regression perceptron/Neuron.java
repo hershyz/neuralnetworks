@@ -38,7 +38,12 @@ public class Neuron {
         Arrays.fill(weights, 0);
         for (int i = 0; i < passedInputs.length; i++) {
             for (int j = 0; j < passedInputs[i].length; j++) {
-                weights[j] = weights[j] + ((outputs[i] - intercept) / inputs[i][j]);
+                if (passedInputs[i][j] == 0) {
+                    weights[j] = weights[j] + (0.5 / inputs[i].length);
+                }
+                if (passedInputs[i][j] != 0) {
+                    weights[j] = weights[j] + ((outputs[i] - intercept) / inputs[i][j]);
+                }
             }
         }
         for (int i = 0; i < weights.length; i++) {
@@ -78,7 +83,7 @@ public class Neuron {
         }
 
         //Displays final weights:
-        System.out.println("Training finished according to error margin. Epochs completed: " + passedCycles);
+        System.out.println("Training finished. Epochs completed: " + passedCycles);
         for (int i = 0; i < weights.length; i++) {
             System.out.println("weights[" + i + "]: " + weights[i] + " + " + intercept);
         }
