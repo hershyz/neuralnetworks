@@ -9,7 +9,7 @@ This network automatically terminates training when predictions are satisfactory
 </pre>
 <pre>
 <strong>java/intercept regression perceptron:</strong>
-A neural network that makes predictions based on positively or negatively correlated non zero input data.
+A neural network that makes predictions based on positively or negatively correlated input data.
 This network uses a regression (sort of) algorithm in infinite dimensions.
 A baseline intercept is calculated, which also sets starting weights for each input column.
 The weights are adjusted over time until the set number of epochs have been completed.
