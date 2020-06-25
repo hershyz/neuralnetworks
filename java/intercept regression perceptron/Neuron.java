@@ -57,7 +57,6 @@ public class Neuron {
         int passedCycles = 0;
 
         //Trains till the program self determines that it is finished training:
-        boolean trainingFinished = false;
         while (passedCycles < cycles) {
 
             int row = 0;
